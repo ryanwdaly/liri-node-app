@@ -112,8 +112,8 @@ function searchMovie(input) {
         var year = response.data.Year;
         var imdb_rating = response.data.imdbRating;
         var rt_rating = response.data.Ratings[1].Value;
-        var country = response.data.country;
-        var language = response.data.language;
+        var country = response.data.Country;
+        var language = response.data.Language;
         var plot = response.data.Plot;
         var actors = response.data.Actors;
 
